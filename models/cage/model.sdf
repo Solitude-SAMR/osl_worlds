@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<model name="cage">
+  <static>true</static>
+  <link name="cage_link">
+
+  <inertial>
+    <mass>1</mass>
+    <pose>0 0 0 0 0 0</pose>
+  </inertial>
+
+  <visual name="cage">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>cage/meshes/cage.dae</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+    <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
+  </visual>
+
+  <collision name="cage">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>cage/meshes/cage.dae</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+  </collision>
+
+  </link>
+</model>
+</sdf>

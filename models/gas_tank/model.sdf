@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<model name="gas_tank">
+  <static>false</static>
+  <link name="gas_tank_link">
+
+  <inertial>
+    <inertia>
+      <ixx>.1</ixx>
+      <ixy>0</ixy>
+      <ixz>0</ixz>
+      <iyy>5</iyy>
+      <iyz>0</iyz>
+      <izz>.1</izz>
+    </inertia>
+    <mass>5</mass>
+  </inertial>
+
+  <visual name="ball">
+    <pose>0 0 0 1.57 0 3.14</pose>
+    <geometry>
+      <mesh><uri>gas_tank/meshes/gas_tank.obj</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+    <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
+  </visual>
+
+  <collision name="ball">
+    <pose>0 0 0 1.57 0 0</pose>
+    <geometry>
+      <mesh><uri>gas_tank/meshes/gas_tank.obj</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+  </collision>
+
+  </link>
+</model>
+</sdf>

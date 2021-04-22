@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+<model name="oil_drum">
+  <plugin name='SetPosePlugin' filename='libSetPosePlugin.so'/>
+  <plugin name='GetPosePlugin' filename='libGetPosePlugin.so'/>
+  <static>false</static>
+  <link name="oil_drum_link">
+
+  <inertial>
+    <inertia>
+      <ixx>1</ixx>
+      <ixy>0</ixy>
+      <ixz>0</ixz>
+      <iyy>1</iyy>
+      <iyz>0</iyz>
+      <izz>1</izz>
+    </inertia>
+    <mass>5</mass>
+  </inertial>
+
+  <visual name="oil_drum">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+    <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
+  </visual>
+  
+  <collision name="oil_drum">
+    <pose>0 0 0 0 0 0</pose>
+    <geometry>
+      <mesh><uri>oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
+    </geometry>
+  </collision>
+
+  </link>
+</model>
+</sdf>
