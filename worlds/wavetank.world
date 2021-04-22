@@ -21,13 +21,13 @@
         </clouds>
       </sky>
       <shadows>1</shadows>
-      <fog>
+      <!-- <fog>
         <color>0.1 0.3 0.4 1</color>
         <type>exp</type>
         <density>.3</density>
         <start>.01</start>
         <end>40</end>
-      </fog>
+      </fog> -->
     </scene>
     
     <!-- Origin placed somewhere in the middle of the North Sea  -->
