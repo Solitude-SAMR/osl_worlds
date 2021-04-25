@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd model://rust_pipe/materials/Rust_Metal.png
+map_Kd ../materials/Rust_Metal.png
 
 newmtl Material.001_C_Metal.bmp
 Ns 96.078443
@@ -21,4 +21,4 @@ Ke 0.0 0.0 0.0
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd model://rust_pipe/materials/C_Metal.png
+map_Kd ../materials/C_Metal.png
