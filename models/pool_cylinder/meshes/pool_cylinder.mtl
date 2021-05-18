@@ -10,7 +10,7 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd /home/bvibhav/ros_uuv_ws/src/orca_worlds/models/pool_cylinder/materials/cement_4.jpg
+map_Kd ../materials/cement_4.jpg
 
 newmtl Walls
 Ns 225.000000
@@ -21,4 +21,4 @@ Ke 0.0 0.0 0.0
 Ni 1.450000
 d 1.000000
 illum 2
-map_Kd /home/bvibhav/ros_uuv_ws/src/orca_worlds/models/pool_cylinder/materials/metal_2.jpg
+map_Kd ../materials/metal_2.jpg
