@@ -120,15 +120,15 @@
       <pose frame=''>0 0 0 0 0 0</pose>
     </model>
 
-    <!-- <include>
+    <include>
       <uri>model://cage</uri>
       <pose>-5.5 5.1 -.2 0 0 0 0</pose>
-    </include> -->
+    </include>
 
-    <!-- <include>
+    <include>
       <uri>model://rust_pipe</uri>
       <pose>0 4 -2.5 1.57 0 1.57</pose>
-    </include> -->
+    </include>
 
     <include>
       <uri>model://ball</uri>
@@ -140,15 +140,15 @@
       <pose>3 2.5 -2 0 0 0 0</pose>
     </include>
 
-    <!-- <include>
+    <include>
       <uri>model://gas_tank</uri>
       <pose>-2.5 -2.5 -2 0 0 0 0</pose>
-    </include> -->
+    </include>
 
-    <!-- <include>
+    <include>
       <uri>model://oil_drum</uri>
       <pose>-3 2.5 -2 0 0 0 0</pose>
-    </include> -->
+    </include>
  
     <!-- <include>
       <uri>model://rov_bop_panel</uri>
