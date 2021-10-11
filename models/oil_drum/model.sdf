@@ -21,7 +21,7 @@
   <visual name="oil_drum">
     <pose>0 0 0 0 0 0</pose>
     <geometry>
-      <mesh><uri>oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
+      <mesh><uri>model://oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
     <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
   </visual>
@@ -29,7 +29,7 @@
   <collision name="oil_drum">
     <pose>0 0 0 0 0 0</pose>
     <geometry>
-      <mesh><uri>oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
+      <mesh><uri>model://oil_drum/meshes/oil_drum.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
   </collision>
 

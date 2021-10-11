@@ -16,18 +16,18 @@
     <mass>10</mass>
   </inertial>
 
-  <visual name="ball">
+  <visual name="gas_canister">
     <pose>0 0 0 0 0 0</pose>
     <geometry>
-      <mesh><uri>gas_cannister/meshes/gas_canister.obj</uri><scale>1 1 1</scale></mesh>
+      <mesh><uri>model://gas_cannister/meshes/gas_canister.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
     <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
   </visual>
 
-  <collision name="ball">
+  <collision name="gas_canister">
     <pose>0 0 0 0 0 0</pose>
     <geometry>
-      <mesh><uri>gas_cannister/meshes/gas_canister.obj</uri><scale>1 1 1</scale></mesh>
+      <mesh><uri>model://gas_cannister/meshes/gas_canister.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
   </collision>
 
