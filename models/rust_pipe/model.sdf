@@ -21,7 +21,7 @@
     <geometry>
       <mesh><uri>model://rust_pipe/meshes/RustPipe.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
-    <plugin name='VisualBboxPlugin' filename='libVisualBboxPlugin.so'/>
+    <!-- <plugin name='VisualBboxPlugin' filename='libVisualBboxPlugin.so'/> -->
   </visual>
   
   <collision name="rust_pipe">

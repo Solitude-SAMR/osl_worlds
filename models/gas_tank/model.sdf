@@ -21,7 +21,7 @@
     <geometry>
       <mesh><uri>model://gas_tank/meshes/gas_tank.obj</uri><scale>1 1 1</scale></mesh>
     </geometry>
-    <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/>
+    <!-- <plugin name="model_visual_plugin" filename="libVisualBboxPlugin.so"/> -->
   </visual>
 
   <collision name="gas_tank">
